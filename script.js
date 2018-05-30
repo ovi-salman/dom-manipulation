@@ -18,4 +18,30 @@ textBtn.addEventListener('click',function(){
 })
 
 
+//task 2b
+
+
+function changeBGColor(event)
+{
+    var body = document.getElementsByTagName('body') [0]
+    if(event.target.innerText=="Red")
+    {
+        body.style.backgroundColor = 'red'
+    }
+    else body.style.backgroundColor = 'green'
+    
+}
+
+
+//task 2c
+
+function redirectToGoogle() {
+   
+    window.location.assign('https://www.google.com')
+    
+    
+}
+
+
+
 /* Task 4 using jQuery */
